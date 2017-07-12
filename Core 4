@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- Set the style of the table -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+
+    <style>
+
+      body{
+        color: inherit;
+        font-family: 'Open Sans', sans-serif;
+      }
+
+      table, th, td{
+        border: 2px solid #01426a;
+        border-collapse: collapse;
+        padding: 15px;
+        text-align: center;
+        vertical-align: middle;
+        color: #01426a
+      }
+
+      th  {
+        background-color: #ece81a
+      }
+      tr:hover {background-color: #ece81a}
+
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Table starts here-->
+    <div style ="overflow-x:auto;">
+      <table style="width:90%; margin:1em auto">
+
+        <!-- Define the first row of the table -->
+        <tr>
+          <th>Core4 Concept</th>
+          <th>Technical Definition</th>
+          <th>Real-Life Analogy</th>
+          <th>Python Example</th>
+          <th>Scratch Example</th>
+        </tr>
+
+        <!-- Fill in the row for Variables -->
+        <tr>
+        <td><b>Variables</b></td>
+          <td> They are items that change do to something</td>
+          <td> Time or game score</td>
+          <td> Sides</td>
+          <td> Angle Count</td>
+        </tr>
+
+        <!-- Fill in the row for Loops -->
+        <tr>
+          <td><b>Loops</b></td>
+          <td> A repeat </td>
+          <td> You hit a golf ball 9 times </td>
+          <td> For hops in range (6) </td>
+          <td> Repeat 6 times </td>
+        </tr>
+
+        <!-- Fill in the row for Conditionals -->
+        <tr>
+          <td><b>Conditionals</b></td>
+          <td> It is a situation that, if true under certain conditions, the commands stated are started. </td>
+          <td> If I punch someone </td>
+          <td> breadslices<=2 </td>
+          <td> If ...then </td>
+        </tr>
+
+        <!-- Fill in the row for Functions -->
+        <tr>
+          <td><b>Functions</b></td>
+          <td>Making a block to do a job  </td>
+          <td>The massaging chair has 4 modes that it switchs between to complete one command of massage</td>
+          <td>IDK</td>
+          <td>More blocks</td>
+        </tr>
+
+      </table>
+    </div>
+    
+  </body>
+</html>
